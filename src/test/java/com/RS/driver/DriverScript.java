@@ -70,7 +70,7 @@ public class DriverScript {
 			// Opening the application URL
 			driver.get(propertyFileReadUtil.getappurl());
 			// Maximize the browser after opening with URL
-			// driver.manage().window().maximize();
+			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Log.info("Launch the app" + driver.getTitle());
 		} catch (Exception e) {
