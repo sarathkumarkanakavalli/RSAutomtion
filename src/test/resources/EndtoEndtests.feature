@@ -37,3 +37,4 @@ Feature: Requested scenarios for interview
   Scenario: Successfully searching for products by RS Stock No.
     Given User on the RS homepage
     When User search for a product by "870-0742" RS Stock No.
+    Then Product Details Page With The Specified RS Stock No. Should Be Opened
